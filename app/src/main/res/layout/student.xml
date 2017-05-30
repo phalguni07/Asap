@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width ="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registeration Form"
+
+        android:textSize="40dp"
+        android:id="@+id/textView3"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <TextView
+
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="FirstName"
+
+        android:id="@+id/tv_fname_id" />
+
+
+    <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:id="@+id/et_fname_id">
+    </EditText>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LastName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_lname_id" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_lname_id" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_dob_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_age_id"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Gender"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_gender_id" />
+
+
+    <RadioGroup
+        android:id="@+id/rg_id"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <RadioButton
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_male_id"
+            android:checked="true"
+            />
+        <RadioButton
+            android:text="Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/rb_female_id" />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi Marks"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_hm_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Out of 100"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_hm_id"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Marks"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tv_em_id" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Out of 100"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_em_id"
+        android:singleLine="true"
+        android:selectAllOnFocus="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onSubmitReg"
+        android:layout_marginBottom="10dp"
+        android:text="Submit"
+        android:id="@+id/btn_submit_id"
+        />
+
+</LinearLayout>
+</ScrollView>

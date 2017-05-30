@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/SummaryId"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="Summary"
+        />
+    <item android:id="@+id/EngAscId"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="Sort Eng (Asc)"
+        />
+
+<item android:id="@+id/EngDescId"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="Sort Eng (Desc)"
+        />
+
+<item android:id="@+id/HinAscId"
+        android:orderInCategory="4"
+        android:showAsAction="never"
+        android:title="Sort Hindi (Asc)"
+        />
+
+<item android:id="@+id/HinDescId"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        android:title="Sort Hindi (Desc)"
+        />
+
+<item android:id="@+id/GenFId"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="Sort Gender (Female)"
+        />
+
+<item android:id="@+id/GenMId"
+        android:orderInCategory="6"
+        android:showAsAction="never"
+        android:title="Sort Gender (Male)"
+        />
+
+</menu>
